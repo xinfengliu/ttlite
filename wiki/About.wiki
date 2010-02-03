@@ -1,0 +1,34 @@
+= About ttlite =
+
+ttlite is an even small,fast and open source Java ME twitter client for mobile phones. It is an enhanced version to [http://code.google.com/p/jibjib  jibjib-1.0.17], which was created by [http://sugree.com/  sugree] ([http://twitter.com/sugree @sugree]) based on [http://code.google.com/p/lolitwitter/ LoliTwitter] by [http://twitter.com/pruet @pruet]  and [http://code.google.com/p/twim/ Twim] by [http://www.substanceofcode.com/  tlaukkanen] ([http://twitter.com/tlaukkanen @tlaukkanen]).
+
+=The enhancements of ttlite include:=
+
+ * support displaying older tweets and caching tweets since application starting-up.
+ * support transportation compression which means not only saving money but also speed. Thanks to [http://www.java4ever.com/index.php?section=j2me&project=gzip&menu=main&lang=_en java4ever.com] providing gzip implementation for j2me.
+ * support https.
+ * refactored some codes and cleaned-up some un-necessary codes.
+ * reorganized the menus.
+ * fixed some minor bugs, such as: wrong time interval, some texts in StringItem was truncated in display, could not make and display favorites correctly...
+ * even smaller size (current version is less than 40KB) and fast.
+
+= Installation=
+
+ * The source code doesn't use any phone vendor specific APIs. It should install on most of phones that supports Java MIDP2.0, including lots of mid-low end phone models.
+ * Go to [http://kenai.com/projects/ttlite/downloads Downloads] page and grab the ttlite-0.97.jar file and transfer it to your phone, then install it on the phone. Some phones may also need the correspondent .jad file with the same name along with the jar file for installation.
+
+= Support: =
+
+ * You can send your questions in reply-message to [http://twitter.com/ttlite  @ttlite] on twitter. If the software works on your phone, I will appreciate if you can tell your phone model to [http://twitter.com/ttlite  @ttlite] on twitter.
+ * This is a free and open source software, use it at your risk. 
+
+= How to build =
+
+ * Download and install latest [http://www.netbeans.org Netbeans]
+ * From Netbeans menu -> tools -> plugins, install Java ME related plugins.
+ * If you use linux, download and install  [http://java.sun.com/products/sjwtoolkit/download.html Sun Java Wireless Toolkit for CLDC ].
+ * (Optional), you can download and install  Sun Java ME SDK 3.0 [http://java.sun.com/javame/downloads/sdk30.jsp windows_version].
+ * Check-out the source.
+ * In Netbeans, Create a JavaME project, and import the source.
+ * (for linux) In Netbeans menu, project properties -> platform -> manage emulators -> add platform, choose the directory where you installed Sun Java Wireless Toolkit for CLDC.
+ * build and test!
