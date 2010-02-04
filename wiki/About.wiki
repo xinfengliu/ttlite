@@ -15,7 +15,7 @@ ttlite is an even small,fast and open source Java ME twitter client for mobile p
 = Installation=
 
  * The source code doesn't use any phone vendor specific APIs. It should install on most of phones that supports Java MIDP2.0, including lots of mid-low end phone models.
- * Go to [http://kenai.com/projects/ttlite/downloads Downloads] page and grab the ttlite-0.97.jar file and transfer it to your phone, then install it on the phone. Some phones may also need the correspondent .jad file with the same name along with the jar file for installation.
+ * Go to [http://code.google.com/p/ttlite/downloads/list Downloads] page and grab the ttlite-0.97.jar file and transfer it to your phone, then install it on the phone. Some phones may also need the correspondent .jad file with the same name along with the jar file for installation.
 
 = Support: =
 
